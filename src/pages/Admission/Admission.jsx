@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import DatePicker from "react-datepicker";
 
 import firebase from '../../firebase';
@@ -12,14 +11,6 @@ import "react-datepicker/dist/react-datepicker.css";
 
 import './admission.scss';
 
-const useStyles = makeStyles(() => ({
-  
-    input:{
-        marginRight:"1rem",
-       
-    }
-  }));
-  
 
 
 const Admission = () => {
@@ -27,7 +18,6 @@ const Admission = () => {
     const history = useHistory();
 
     const [personal, SetPersonal] =useState(true);
-    const [acadamic, SetAcadamic] =useState(false);
 
     const [startDate, setStartDate] = useState(new Date());
 
@@ -62,16 +52,12 @@ const Admission = () => {
         SetPersonal(!personal)
     }
 
-    const openAcadamic = () =>{
-        SetAcadamic(!acadamic)
-    }
-    
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        // console.log("clicked", formData)
+        console.log("clicked", formData)
         const formRef = firebase.database().ref("onlineAdmission");
-        // formRef.push(formData);
+        formRef.push(formData);
         history.push("/formconfirmation");
     }
 

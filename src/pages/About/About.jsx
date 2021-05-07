@@ -28,13 +28,13 @@ const About = () => {
                     <hr/>
                       <ul className="about__list">
 
-                          <li> <a href=""> <i className="fas fa-arrow-right"></i> In Focus
-                        </a> </li>
+                          <li>  <i className="fas fa-arrow-right"></i> In Focus
+                         </li>
 
-                          <li> <a href=""> <i className="fas fa-arrow-right"></i> Academic Environments</a>
+                          <li>  <i className="fas fa-arrow-right"></i> Academic Environments
                           </li>
 
-                          <li> <a href=""> <i className="fas fa-arrow-right"></i> Diversity of Students</a>
+                          <li>  <i className="fas fa-arrow-right"></i> Diversity of Students
                           </li>
 
                       </ul>
@@ -85,13 +85,13 @@ const About = () => {
                 <hr/>
                 <ul className="about__list">
 
-                    <li> <a href=""> <i className="fas fa-arrow-right"></i> Adayar
-                    </a> </li>
+                    <li>  <i className="fas fa-arrow-right"></i> Adayar
+                   </li>
 
-                    <li> <a href=""> <i className="fas fa-arrow-right"></i> Anna Nagar</a>
+                    <li>  <i className="fas fa-arrow-right"></i> Anna Nagar
                     </li>
 
-                    <li> <a href=""> <i className="fas fa-arrow-right"></i> Vadapalani</a>
+                    <li>  <i className="fas fa-arrow-right"></i> Vadapalani
                     </li>
 
                 </ul>
