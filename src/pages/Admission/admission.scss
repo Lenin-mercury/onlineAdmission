@@ -1,0 +1,133 @@
+//breakpoints
+$bp-larger:1200px;
+$bp-large:1080px;
+$bp-medium:900px;
+$bp-small:770px;
+$bp-smaller:600px;
+
+.test{
+    margin-right: 1.5rem;
+}
+
+.admission{
+    padding: 1.5rem 3rem;
+
+    &__form{
+
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+
+        @media only screen and (max-width: $bp-small) {
+            padding: 1rem 1rem;
+             }
+
+         &--label{
+             padding-right: 1.5rem;
+             width: 10rem;
+         }    
+
+         &-content{
+            display: none;
+        }
+
+        &-content-show{
+            display: block;
+        }
+        
+        &--group{
+            padding: 1.5rem 0;
+            display: flex;
+            align-items: center;
+            // width: 100%;
+
+            & p{
+                padding-right: 1.5rem;
+            }
+
+            & div{
+                margin-bottom: 1rem;
+            }
+
+            & select{
+                padding: 1rem;
+            }
+
+
+        }
+        &--group2{
+            padding-bottom: 2rem;
+            display: flex;
+            // flex-wrap: wrap;
+            justify-content: space-between;
+
+            &-div{
+                padding-right: 2rem;
+            }
+
+
+        }
+
+        &--personal{
+            padding: 2rem;
+
+           
+
+            &-heading{
+                display: flex;
+                align-items: center;
+
+                &:hover{
+                    cursor: pointer;
+                }
+
+                & h3{
+                    padding-right: 1rem;
+                }
+
+                & i{
+                    font-size: 2rem;
+                }
+            }
+
+           
+        }
+
+        &--req{
+            color: red;
+        }
+
+
+        &--input{
+            width: 100%;
+            font-size: 1.5rem;
+            color: grey;
+            padding: 1rem 1.5rem;
+            margin-right: 1rem;
+        }
+
+        &--button{
+            width: 100%;
+            font-size: 2rem;
+            font-weight: 700;
+            color: white;
+            background-color:#26ae60;
+            
+            border: none;
+            padding: 1.5rem;
+
+            &:hover{
+              
+                 background-color: #43BE31;
+                 cursor: pointer;
+            }
+
+
+        }
+
+
+
+        
+    }
+}

@@ -1,0 +1,16 @@
+.about{
+    padding: 0 12rem;
+    font-size: 1.5rem;
+
+    &__list{
+        list-style: none;
+    }
+
+    &__list li{
+        font-size: 1.5rem;
+    }
+
+    &__list a :link, :visited{
+        color: black;
+    }
+}

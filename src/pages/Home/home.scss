@@ -1,0 +1,55 @@
+//breakpoints
+
+$bp-larger:1200px;
+$bp-large:1080px;
+$bp-medium:950px;
+$bp-small:770px;
+$bp-smaller:600px;
+
+
+
+
+.home{
+
+    &__heading{
+        font-size: 2.5rem;
+    }
+
+    &__para{
+        font-size: 1.5rem;
+    }
+    &__academics{
+        padding: 4rem 20rem;
+      
+        &--header{
+            font-size: 5.5rem;
+            color: #063a7e;
+            text-align: center;
+        }
+
+        &--subheader{
+            font-size: 2.5rem;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        &--content{
+            padding: 2rem;
+        }
+
+        &--image{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__research{
+        padding: 4rem 20rem;
+
+        &--content{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

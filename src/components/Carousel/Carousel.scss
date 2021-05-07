@@ -1,0 +1,25 @@
+//breakpoint
+$bp-larger:1200px;
+$bp-large:1080px;
+$bp-medium:950px;
+$bp-small:770px;
+$bp-smaller:600px;
+
+
+
+.carousel-img-85vh{
+    height: 85vh;
+    @media only screen and (max-width: $bp-medium) {
+       height: 65vh;
+      }
+}
+
+
+.carousel-img-45vh{
+    height: 45vh;
+    @media only screen and (max-width: $bp-medium) {
+       height: 35vh;
+      }
+}
+
+

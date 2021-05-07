@@ -1,0 +1,62 @@
+//breakpoints
+$bp-larger:1200px;
+$bp-large:1080px;
+$bp-medium:900px;
+$bp-small:770px;
+$bp-smaller:600px;
+
+
+.inputgroup{
+    font-size: 1.5rem;
+
+    &__form{
+    
+        &--group{
+            padding-bottom: 2rem;
+        }
+        
+        &--group2{
+            padding-bottom: 2rem;
+            display: flex;
+            // flex-wrap: wrap;
+            justify-content: space-between;
+
+            &-div{
+                padding-right: 2rem;
+            }
+
+        }
+
+        &--req{
+            color: red;
+        }
+
+
+        &--input{
+            width: 100%;
+            font-size: 1.5rem;
+            color: grey;
+            padding: 1rem 1.5rem;
+        }
+
+        &--button{
+            width: 100%;
+            font-size: 2rem;
+            font-weight: 700;
+            color: white;
+            background-color:#26ae60;
+            
+            border: none;
+            padding: 1.5rem;
+
+            &:hover{
+              
+                 background-color: #43BE31;
+                 cursor: pointer;
+            }
+
+
+        }
+    }
+
+}
