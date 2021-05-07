@@ -71,8 +71,8 @@ const Admission = () => {
         e.preventDefault();
         // console.log("clicked", formData)
         const formRef = firebase.database().ref("onlineAdmission");
-        formRef.push(formData);
-        history.push("/admission/formconfiramtion");
+        // formRef.push(formData);
+        history.push("/formconfirmation");
     }
 
 
